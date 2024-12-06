@@ -1,3 +1,4 @@
+mod array;
 mod plus_one_66;
 mod summary_ranges_228;
 mod two_sum_1;
