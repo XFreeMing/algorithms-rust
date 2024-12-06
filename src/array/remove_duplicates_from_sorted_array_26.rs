@@ -83,8 +83,8 @@
 // @lc code=start
 #[allow(dead_code)]
 impl Solution {
-    pub fn remove_duplicates(nums: &mut [i32]) -> i32 {
-        Self::solution_1(nums)
+    pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
+        Self::solution_2(nums)
     }
 
     fn solution_1(nums: &mut [i32]) -> i32 {
@@ -101,6 +101,10 @@ impl Solution {
         }
 
         (j + 1) as i32
+    }
+    fn solution_2(nums: &mut Vec<i32>) -> i32 {
+        nums.dedup();
+        nums.len() as i32
     }
 }
 // @lc code=end
