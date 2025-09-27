@@ -8,6 +8,18 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+### rust 更新
+
+```bash
+rustup update
+```
+
+### 查看已安装的 Rust 依赖
+
+```bash
+rustup show
+```
+
 ### 安装 VSCode 插件
 
 - crates: Rust 包管理
