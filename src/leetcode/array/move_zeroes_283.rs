@@ -40,6 +40,7 @@
  */
 
 // @lc code=start
+#[allow(dead_code)]
 impl Solution {
     pub fn move_zeroes(nums: &mut Vec<i32>) {
         let mut left = 0;

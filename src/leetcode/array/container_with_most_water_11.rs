@@ -53,6 +53,7 @@
  *
  */
 // @lc code=start
+#[allow(dead_code)]
 impl Solution {
     pub fn max_area(height: Vec<i32>) -> i32 {
         let mut i = 0;
